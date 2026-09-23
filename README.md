@@ -1,5 +1,7 @@
 # Structural Trie LM Experiments
 
+![Structural Trie LM identity](./assets/structural-trie-lm.svg)
+
 Experimental code for testing one question:
 
 > Can cheap word-structure signals constrain next-word prediction enough to be useful before expensive neural computation?
