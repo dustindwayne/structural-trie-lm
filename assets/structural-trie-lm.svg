@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" role="img" aria-labelledby="t d">
+  <title id="t">Structural Trie LM</title>
+  <desc id="d">Dark modern identity graphic with a trie diagram and signal flows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#030b17"/><stop offset="1" stop-color="#081726"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop stop-color="#7eefff"/><stop offset="1" stop-color="#4f7dff"/></linearGradient>
+  </defs>
+  <rect width="1600" height="800" fill="url(#bg)"/>
+  <g fill="none" stroke="#20374d" stroke-width="2" opacity=".4">
+    <path d="M0 80h1600M0 220h1600M0 360h1600M0 500h1600M0 640h1600"/>
+    <path d="M160 0v800M320 0v800M480 0v800M640 0v800M800 0v800M960 0v800M1120 0v800M1280 0v800M1440 0v800"/>
+  </g>
+  <g transform="translate(180 120)" stroke="url(#g)" fill="none" stroke-width="4">
+    <circle cx="110" cy="40" r="36" opacity=".8"/><circle cx="0" cy="180" r="36" opacity=".35"/><circle cx="110" cy="180" r="36"/><circle cx="220" cy="180" r="36" opacity=".35"/><circle cx="110" cy="320" r="42"/><circle cx="110" cy="470" r="48"/>
+    <path d="M110 76V144M80 63L18 150M140 63l62 87M110 216v62M110 362v60"/><path d="M0 216v72M220 216v72" opacity=".35"/>
+    <text x="110" y="52" text-anchor="middle" fill="#d7fbff" font-family="monospace" font-size="28" stroke="none">Ø</text>
+    <text x="0" y="191" text-anchor="middle" fill="#9dc6e8" font-family="monospace" font-size="26" stroke="none">c</text><text x="110" y="191" text-anchor="middle" fill="#d7fbff" font-family="monospace" font-size="26" stroke="none">t</text><text x="220" y="191" text-anchor="middle" fill="#9dc6e8" font-family="monospace" font-size="26" stroke="none">s</text>
+    <text x="110" y="332" text-anchor="middle" fill="#d7fbff" font-family="monospace" font-size="34" stroke="none">tr</text><text x="110" y="484" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="44" stroke="none">trie</text>
+  </g>
+  <g transform="translate(680 160)">
+    <text x="0" y="0" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="92" font-weight="300">Structural <tspan fill="#6f98ff">Trie</tspan> LM</text>
+    <text x="4" y="68" fill="#d2d8de" font-family="monospace" font-size="28" letter-spacing="6">constraint-first language experiments</text>
+    <g transform="translate(0 170)">
+      <path d="M0 100C120 60 220 150 320 110S520 40 660 85 900 180 980 130" fill="none" stroke="#3ec7ff" stroke-width="4" opacity=".8"/>
+      <path d="M0 118C120 160 220 70 320 110S520 190 660 145 900 30 980 80" fill="none" stroke="#6f7dff" stroke-width="3" opacity=".7"/>
+      <path d="M0 140C120 90 220 130 320 110S520 90 660 125 900 180 980 180" fill="none" stroke="#5da7d8" stroke-width="2" opacity=".6"/>
+      <g fill="#7eefff"><circle cx="0" cy="100" r="6"/><circle cx="320" cy="110" r="6"/><circle cx="660" cy="85" r="6"/><circle cx="980" cy="130" r="6"/></g>
+    </g>
+    <g transform="translate(0 300)" fill="#7fb0cf" font-family="monospace" font-size="24">
+      <text y="0">token</text><text y="40">toke</text><text y="80">tokenize</text><text y="120">tokens</text><text x="250" y="55" fill="#ffffff">[ 0.12  -0.03  0.41  ... ]</text>
+    </g>
+  </g>
+</svg>
